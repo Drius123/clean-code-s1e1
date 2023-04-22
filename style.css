@@ -34,7 +34,8 @@ body {
   margin: 0 auto 0;
 }
 
-.task, .task-label {
+.task,
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,20 +45,27 @@ body {
   display: flex;
 }
 
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
 
-.todo-remove, .edit-mode, .completed-remove, .todo, .completed{
+.todo-remove,
+.edit-mode,
+.completed-remove,
+.todo,
+.completed{
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
-.add, .delete {
+.add,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,12 +75,14 @@ input,button{
   cursor: pointer;
 }
 
-.add:hover, .delete:hover {
+.add:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.todo, .completed,
+.todo,
+.completed,
 .new-task-label {
   color: #333;
   font-weight: 700;
@@ -111,7 +121,9 @@ input,button{
 }
 
 /* Task list */
-.todo-remove, .edit-mode, .completed-remove {
+.todo-remove,
+.edit-mode,
+.completed-remove {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -120,11 +132,13 @@ input,button{
   align-items: center;
 }
 
-.incomplete-tasks-checkbox, .todo-remove .task-label {
+.incomplete-tasks-checkbox,
+.todo-remove .task-label {
   vertical-align: middle;
 }
 
-.incomplete-tasks-checkbox, .edit-mode-checkbox {
+.incomplete-tasks-checkbox,
+.edit-mode-checkbox {
   margin: 0 10px;
 }
 
